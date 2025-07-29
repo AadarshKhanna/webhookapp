@@ -20,8 +20,8 @@ public class WebhookService {
 
         Map<String, String> payload = Map.of(
                 "name", "Aadarsh Khanna",
-                "regNo", "REG12347",
-                "email", "your@email.com"
+                "regNo", "2210994751",
+                "email", "aadarsh4751.be22@chitkara.edu.in"
         );
 
         HttpEntity<Map<String, String>> entity = new HttpEntity<>(payload, headers);
